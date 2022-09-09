@@ -16,7 +16,7 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 32px;
-  background-color: rgb(193, 235, 248);
+  background-color: rgb(123, 245, 253);
   border-radius: 8px;
   padding: 8px;
   max-width: 1000px;
@@ -41,7 +41,7 @@ body {
   padding: 8px;
 
   &__name {
-    background-color: rgb(226, 175, 166);
+    background-color: rgb(123, 245, 253);
     margin-right: 5px;
     width: 150px;
   }
