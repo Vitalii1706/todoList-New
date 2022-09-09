@@ -12,6 +12,12 @@ const TasksList = ({ tasks }) => {
   );
 };
 
+const mapState = state => {
+  return {
+    tasks: sortedTaskListSelector(state),
+  };
+};
+
 TasksList.propTypes = {
   tasks: PropTypes.array.isRequired,
 };
