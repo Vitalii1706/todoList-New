@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import classNames from 'classnames';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import * as tasksAction from '../redax/tasks.actions';
+import * as tasksAction from '../redux/tasks.actions';
 import moment from 'moment';
 
 const Task = ({

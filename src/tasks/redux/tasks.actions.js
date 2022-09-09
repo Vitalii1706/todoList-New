@@ -1,4 +1,4 @@
-import * as tasksGateWay from './tasksGateWay';
+import * as tasksGateWay from '../server/gateWay';
 import { taskListSelector } from './tasks.selectors';
 
 export const TASKS_LIST_RICIVED = 'TASKS_LIST_RICIVED';
